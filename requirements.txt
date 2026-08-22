@@ -1,0 +1,42 @@
+# ============================================
+# Layra - Python Dependencies
+# ============================================
+
+# --- Voice Pipeline ---
+SpeechRecognition>=3.10.0    # Speech recognition engine
+pyaudio>=0.2.14               # Audio stream I/O for SpeechRecognition
+pvporcupine>=3.0.0          # Wake word detection ("Hey Layra")
+pvrecorder>=1.2.0           # Audio recording
+faster-whisper>=1.0.0       # Speech-to-text (local Whisper)
+edge-tts>=6.1.0             # Text-to-speech (Microsoft Neural voices)
+pygame>=2.5.0               # Audio playback
+sounddevice>=0.4.6          # Audio I/O
+numpy>=1.24.0               # Audio processing
+
+# --- AI Brain ---
+google-genai>=1.0.0         # Google Gemini API
+
+# --- macOS Automation ---
+pyautogui>=0.9.54           # GUI automation fallback
+pyperclip>=1.8.2            # Clipboard operations
+
+# --- Browser & Research ---
+selenium>=4.15.0            # Browser automation
+webdriver-manager>=4.0.0    # Auto-manage browser drivers
+duckduckgo-search>=6.0.0    # Web search (no API key needed)
+beautifulsoup4>=4.12.0      # HTML parsing
+requests>=2.31.0            # HTTP requests
+
+# --- Gmail ---
+google-auth-oauthlib>=1.1.0 # Gmail OAuth
+google-api-python-client>=2.100.0  # Gmail API
+google-auth>=2.23.0         # Auth base
+
+# --- UI ---
+rich>=13.7.0                # Beautiful terminal output
+
+# --- Utilities ---
+python-dotenv>=1.0.0        # Load .env files
+pydantic>=2.5.0             # Data validation
+schedule>=1.2.0             # Task scheduling
+climage

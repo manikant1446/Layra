@@ -1,0 +1,35 @@
+# Environment
+.env
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Credentials (NEVER commit these!)
+credentials/
+*.json
+!package.json
+
+# Data & Logs
+data/
+logs/
+
+# macOS
+.DS_Store
+*.swp
+
+# IDE
+.vscode/
+.idea/
+tempCodeRunnerFile.py
+
+# Audio temp files
+*.mp3
+*.wav
+assets/sounds/*.wav
