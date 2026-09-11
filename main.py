@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
 """
 ╔══════════════════════════════════════════════╗
 ║   Layra - Personal AI Assistant              ║
 ║   Just A Rather Very Intelligent System      ║
-║                                              ║
 ║   Voice-controlled AI assistant for macOS    ║
 ╚══════════════════════════════════════════════╝
 
@@ -14,7 +12,6 @@ Usage:
     python3 main.py --no-voice       # No TTS output (text only)
     python3 main.py --help-commands  # Show available commands
 """
-
 import sys
 import signal
 import logging
@@ -36,10 +33,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("layra")
 
-
-# ============================================
 # Import all modules
-# ============================================
 from ui.terminal_ui import TerminalUI
 from voice.speaker import Speaker
 from voice.recognizer import SpeechRecognizer
@@ -59,7 +53,6 @@ from skills.information import InformationManager
 from skills.cybersec_trainer import CyberSecTrainer
 from skills.hacklab import HackLabAssistant
 from skills.auto_pentest import AutoPentest
-
 
 class Layra:
     """
